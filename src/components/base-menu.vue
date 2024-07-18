@@ -1,7 +1,7 @@
 <template>
   <q-card>
     <q-card-section class="bg-teal text-white">
-      建立資料
+      菜單管理
     </q-card-section>
 
     <q-form @submit="handleSubmit">
