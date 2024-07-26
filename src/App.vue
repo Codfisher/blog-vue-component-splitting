@@ -1,8 +1,5 @@
-<script
-  setup
-  lang="ts"
->
-import BaseMenu from './components/base-menu.vue';
+<script setup lang="ts">
+import SingleMenuManger from './components/single-menu-manger.vue';
 import { openUsingDialog } from './common/utils-quasar';
 import { useQuasar, QDialog } from 'quasar';
 import { h } from 'vue';
@@ -13,7 +10,7 @@ const $q = useQuasar();
 
 <template>
   <div class="fit flex flex-col gap-4">
-    <base-menu />
+    <single-menu-manger />
   </div>
 </template>
 
