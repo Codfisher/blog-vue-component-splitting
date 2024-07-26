@@ -38,6 +38,8 @@
       </q-card-section>
     </q-form>
 
+    <hr />
+
     <q-card-section>
       <div class="flex gap-2">
         <div class="flex-1">
